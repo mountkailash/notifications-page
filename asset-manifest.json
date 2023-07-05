@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/github.io/notifications-page/static/css/main.4d482225.css",
+    "main.js": "/github.io/notifications-page/static/js/main.3631bf52.js",
+    "static/media/rizky.webp": "/github.io/notifications-page/static/media/rizky.2c9e9a5d4982e8f1b614.webp",
+    "static/media/jacob.webp": "/github.io/notifications-page/static/media/jacob.ef1880754355ebe956bb.webp",
+    "static/media/nathan.webp": "/github.io/notifications-page/static/media/nathan.03727540c8ed8341d745.webp",
+    "static/media/anna.webp": "/github.io/notifications-page/static/media/anna.14242399b99facbf45c7.webp",
+    "static/media/mark.webp": "/github.io/notifications-page/static/media/mark.e3e820b976dfaf7f762a.webp",
+    "static/media/chess.webp": "/github.io/notifications-page/static/media/chess.b06cd5b36869c9a4784e.webp",
+    "static/media/kimberly.webp": "/github.io/notifications-page/static/media/kimberly.00520dc2b2f8e585aac5.webp",
+    "static/media/angela.webp": "/github.io/notifications-page/static/media/angela.be3397e8fa98e1cac926.webp",
+    "index.html": "/github.io/notifications-page/index.html",
+    "main.4d482225.css.map": "/github.io/notifications-page/static/css/main.4d482225.css.map",
+    "main.3631bf52.js.map": "/github.io/notifications-page/static/js/main.3631bf52.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d482225.css",
+    "static/js/main.3631bf52.js"
+  ]
+}
