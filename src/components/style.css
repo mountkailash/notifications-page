@@ -1,0 +1,312 @@
+body {
+    background-color: hsl(210, 60%, 98%);
+}
+
+:root{
+    --body-bg: hsl(210, 60%, 98%);
+    --board-bg: hsl(0, 0%, 100%);
+    --primary-text: hsl(219, 12%, 42%);
+    --user-name: hsl(224, 21%, 14%);
+    --time-text: hsl(219, 14%, 63%);
+    --count-text: hsl(205, 33%, 90%);
+    --msg-border: hsl(211, 68%, 94%);
+    --red: hsl(1, 90%, 64%);
+    --blue: hsl(219, 85%, 26%);
+}
+
+.notifications-container {
+    background-color: var(--board-bg);
+    margin: 0 auto;
+    width: 610px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    
+}
+
+.notifications {
+    display: flex;
+    align-items: center;
+    margin-left: 22px;
+    margin-top: 20px;
+}
+
+.notifications h2 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.num {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 14px;
+    width: 22px;
+    height: 20px;
+    background-color: var(--blue);
+    color: var(--count-text);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    outline: none;
+    color: #fff;
+}
+
+.mark {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 12px;
+    margin-left: auto;
+    margin-right: 21px;
+    color: var(--primary-text);
+    cursor: pointer;
+}
+
+.mark:hover {
+    color: var(--blue);
+}
+
+.profile-card {
+    display: flex;
+    align-items: center;
+    background-color: hsl(205, 33%, 90%);
+    max-width: 620px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.profile-card img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.card-content .info {
+    display: flex;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info .dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: var(--red);
+}
+
+.name {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 10px;
+    color: var(--user-name);
+}
+
+.activity {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 13px;
+    color: var(--primary-text);
+}
+
+.post {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--primary-text);
+    cursor: pointer;
+}
+
+.post:hover {
+    color: var(--blue);
+}
+
+.time {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 10px;
+    color: var(--time-text);
+}
+
+
+.profile-card-rizky {
+    display: flex;
+    background-color: var(--board-bg);
+    max-width: 620px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.profile-card-rizky img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.message {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 10px;
+    border: 1px solid var(--msg-border);
+    background-color: var(--board-bg);
+    color: var(--primary-text);
+    border-radius: 4px;
+    text-align: left;
+}
+.message:hover {
+    background-color: var(--count-text);
+}
+
+
+.profile-card-kimberly {
+    display: flex;
+    background-color: var(--board-bg);
+    max-width: 620px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.profile-card-kimberly img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.profile-card-kimberly .chess {
+    margin-left: 490px;
+    width: 30px;
+    height: 30px;
+    
+}
+.kim {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.profile-card-nathan {
+    display: flex;
+    background-color: var(--board-bg);
+    max-width: 620px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+    border-radius: 4px;
+}
+.profile-card-nathan img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+.test {
+    margin-left: 10px;
+}
+.name-nathan {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.profile-card-anna {
+    display: flex;
+    background-color: var(--board-bg);
+    max-width: 620px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+    border-radius: 4px;
+}
+.profile-card-anna img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+
+.card-content .info .activity,
+.card-content .info .post,
+.card-content .info .dot {
+    margin-left: 5px;
+}
+
+.time {
+    margin-left: 9px;
+}
+
+.read {
+    background-color: var(--board-bg);
+}
+
+.coded-by {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.coded-by p {
+    color: var(--blue);
+    font-weight: bold;
+}
+ 
+
+@media (max-width: 375px) {
+    .container {
+        width: 100%;
+    }
+    .notifications-container {
+        width: 100%;
+    }
+    .profile-card {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .card-content .info {
+        flex-wrap: wrap;
+    }
+    .profile-card-rizky {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .profile-card-kimberly {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .profile-card-nathan {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .profile-card-anna {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .profile-card-kimberly .chess {
+        margin-left: 260px;
+    }
+   
+}
+
+
+
